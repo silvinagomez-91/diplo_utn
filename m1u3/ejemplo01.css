@@ -1,0 +1,29 @@
+/*esto es un comentario en css*/
+h1{
+    color: red; /*color de la fuente*/
+    font-family: Arial, Helvetica, sans-serif; /*tipo de la fuente*/
+    background-color: yellow; /*fondo de color liso*/
+    text-align: center;
+}
+
+p{
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h2{
+    color: blue;
+}
+
+.destacados{
+    color: orange;
+    font-size: 20px; /*tamaño de la fuente*/
+    font-weight: bold; /*es un peso, se puede poner con nombre asi como esta o con numero (ej 500)*/
+    font-style: italic;
+}
+
+.unico{
+    color: blueviolet;
+    font-weight: 500;
+}
