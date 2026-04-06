@@ -1,0 +1,13 @@
+.caja{
+    background-color: yellow;
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    /*se puede redondear por lados*/
+    margin: 80px;
+    box-shadow: -20px 30px 5px black;
+    /*eje X - eje Y - blur (desenfocado) - color*/
+    /*tiene que ver con la ubicacion de la sombra (- es izq y arriba + es derecha y abajo*/
+}

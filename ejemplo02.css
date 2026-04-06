@@ -1,0 +1,27 @@
+/*tambien se puede traer una fuente copiando el codigo aca, es uno o el otor.*/
+/*<style>
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+</style>*/
+
+/*font-family: "Roboto", sans-serif;
+font-family: "Caveat Brush", cursive;*/
+
+.texto{
+    columns: 4;
+    column-gap: 50px;
+    column-rule: 5px solid black;
+}
+
+h1{
+font-family: "Caveat Brush", cursive;
+color: red;
+}
+
+p{
+font-family: "Roboto", sans-serif;
+color: brown;
+}
+
+.icono{
+    font-size:120px;
+}
