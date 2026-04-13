@@ -1,0 +1,29 @@
+.contenedor{
+    background-color: white;
+    border: 1px solid black; 
+    flex-direction: column-reverse;
+    
+
+}
+
+.item1{
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+
+.item2{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+
+.item3{
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+
