@@ -2,10 +2,10 @@
 	height: 500px;
 	background-color: blue;
 	display: flex;
-	align-items: flex-start;
-	/* align-items: flex-end; */
+	/*align-items: flex-start;*/
+	 /*align-items: flex-end;*/
 	/* align-items: center; */
-	/* align-items: stretch; */
+	/* align-items: stretch;*/ 
 }
 
 
