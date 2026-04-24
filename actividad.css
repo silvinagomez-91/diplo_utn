@@ -1,0 +1,59 @@
+.contenedor{
+    max-width: 950px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+body{
+    background-color: gray;
+}
+
+header{
+    background-color: rgb(170, 248, 222);
+    padding: 8%;
+    font-size: 50px;
+}
+
+.desarrollo{
+    display: flex;
+}
+
+nav{
+    background-color: rgb(116, 116, 248);
+    padding: 20px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 2%;
+    margin-right: 50px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+   
+}
+
+main{
+    background-color: rgb(250, 210, 159);
+    padding: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+
+}
+
+aside{
+    background-color: rgb(140, 219, 221);
+    padding: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+footer{
+    background-color: rgb(248, 155, 88);
+    padding: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+
+
