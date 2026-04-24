@@ -12,6 +12,7 @@ header{
     background-color: rgb(170, 248, 222);
     padding: 8%;
     font-size: 50px;
+    text-align: center;
 }
 
 .desarrollo{
@@ -25,11 +26,13 @@ nav{
 
 nav ul li{
     list-style: none;
-    padding: 2%;
-    margin-right: 50px;
+    width: 100px;
+    padding: 10%;
+    margin-right: 50%;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
+    
    
 }
 
@@ -54,6 +57,39 @@ footer{
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
 }
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:650px){
+
+    body{
+        background-color: rgb(93, 93, 251);
+
+    }
+
+    .desarrollo{
+        flex-wrap: wrap;
+    }
+
+    nav{
+        width: 35%;
+        
+    }
+
+    nav ul{
+        display: flex;
+        margin: 0%;
+        padding: 0%;
+        justify-content: space-evenly;
+        
+    
+    }
+
+
+
+}  
 
 
 
