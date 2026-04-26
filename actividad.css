@@ -21,14 +21,13 @@ header{
 
 nav{
     background-color: rgb(116, 116, 248);
-    padding: 20px;
+    width: 25%;
+
 }
 
 nav ul li{
     list-style: none;
-    width: 100px;
-    padding: 10%;
-    margin-right: 50%;
+    padding: 20%;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
@@ -38,15 +37,16 @@ nav ul li{
 
 main{
     background-color: rgb(250, 210, 159);
-    padding: 45px;
+    width: 35%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
+    
 
 }
 
 aside{
     background-color: rgb(140, 219, 221);
-    padding: 35px;
+    width: 40%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
 }
@@ -65,31 +65,43 @@ a{
 @media screen and (max-width:650px){
 
     body{
-        background-color: rgb(93, 93, 251);
+        background-color: white;
 
     }
 
-    .desarrollo{
-        flex-wrap: wrap;
-    }
+   .desarrollo{
+    flex-wrap: wrap;
+   }
 
-    nav{
-        width: 35%;
-        
-    }
+   nav{
+    width: 100%;
+   }
 
-    nav ul{
-        display: flex;
-        margin: 0%;
-        padding: 0%;
-        justify-content: space-evenly;
-        
+   nav ul{
     
-    }
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+   }
+
+   
 
 
+   main{
+    width: 100%;
+    padding: 0 20px;
+   }
 
-}  
+   aside{
+    width: 100%;
+    padding: 0 20px;
+    
 
+   }
 
+   footer{
+    padding: 10px 20px;
+   }
 
+   
