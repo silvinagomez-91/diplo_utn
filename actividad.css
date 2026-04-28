@@ -40,7 +40,8 @@ main{
     width: 35%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
-    
+    padding: 20px;
+
 
 }
 
@@ -49,6 +50,7 @@ aside{
     width: 40%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
+    padding: 20px;
 }
 
 footer{
@@ -65,8 +67,12 @@ a{
 @media screen and (max-width:650px){
 
     body{
-        background-color: white;
+        background-color: rgb(253, 207, 207);
 
+    }
+
+    header{
+        background-color: rgb(250, 185, 138);
     }
 
    .desarrollo{
@@ -75,33 +81,31 @@ a{
 
    nav{
     width: 100%;
+    background-color: rgb(162, 254, 224);
    }
 
-   nav ul{
-    
-    display: flex;
-    justify-content: space-evenly;
+   nav ul li{
     margin: 0;
     padding: 0;
    }
-
    
 
 
    main{
     width: 100%;
-    padding: 0 20px;
+    background-color: rgb(246, 213, 170);
    }
 
    aside{
     width: 100%;
-    padding: 0 20px;
+    background-color: rgb(84, 191, 84);
     
 
    }
 
    footer{
     padding: 10px 20px;
+    text-align: center;
+    background-color: rgb(147, 147, 249);
    }
 
-   
