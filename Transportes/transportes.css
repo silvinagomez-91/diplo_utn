@@ -2,3 +2,188 @@
 
 /* font-family: "Roboto", sans-serif; */
 
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header{
+    background-color: rgb(135, 135, 250);
+    padding: 16px 0;
+}
+
+header h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 100; /*peso de la fuente (grosor)*/
+    font-style: italic;
+    display: inline-block;
+    position: relative; /*significa que lo voy a mover desde ese punto*/
+    bottom: 35px;
+    margin-left: 10px;
+}
+
+nav{
+    background-color: lightskyblue;
+    margin-bottom: 20px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    flex-grow: 1;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover{
+    background-color: rgb(132, 129, 129);
+}
+
+footer{
+    background-color: rgb(227, 221, 221);
+    clear: both;
+    color: black;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 20px; 
+}
+
+nav ul li a.activo{
+    background-color: rgb(73, 106, 107);
+}
+
+.holder{
+    max-width: 950px; /*maximo ancho*/
+    margin: 0 auto;
+}
+
+h2{
+    color: rgb(28, 139, 139);
+    font-weight: 400;
+}
+
+/*inicio home*/
+
+.bienvenidos{
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.testimonios{
+    width: 25%;
+    
+}
+
+.columnas{
+    display: flex;
+}
+
+.bienvenidos p{
+    font-size: 20px;
+}
+
+.testimonio{
+    background-color: rgb(182, 172, 172);
+    padding: 16px;
+}
+
+.testimonio .cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    background-color: yellow;
+    display: block;
+}
+
+.testimonio .autor{
+    font-size: 10px;
+    text-align: center;
+    background-color: coral;
+    display: block;
+    margin: 17px 0;
+}
+
+/*fin home*/
+
+/*inicio nosotros*/
+
+.historia p{
+    font-size: 12px;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona{
+    border: 1px solid wheat;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    /* background-color: orange; */
+}
+
+.persona img{
+    border-radius: 50%;
+    max-width: 60%;
+    box-shadow: 0 0 5px black;
+}
+
+.persona h5,
+.persona h6{
+    margin: 0;
+    font-weight: normal;
+    color: rgb(82, 82, 248);
+}
+
+.persona h6{
+    font-size: 11px;
+    font-style: italic;
+}
+
+.persona p{
+    color: rgb(117, 115, 115);
+    font-size: 10px;
+}
+
+/*fin nosotros*/
+
+
+/*inicio servicios*/
+
+.servicio{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center; 
+
+}
+
+.servicio .info h4{
+    color: #2e64a1;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid #2e64a1;
+    padding-bottom: 10px;
+}
+
+/*fin servicios*/
