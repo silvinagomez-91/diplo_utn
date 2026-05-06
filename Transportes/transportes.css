@@ -182,8 +182,45 @@ h2{
     color: #2e64a1;
     font-weight: 500;
     font-style: italic;
-    border-bottom: 1px solid #2e64a1;
+    border-bottom: 1px solid #2e64a1; /*linea de h4*/
     padding-bottom: 10px;
 }
 
+.servicio .intro p{
+    font-size: 13px;
+    /* line-height: 19px; */
+}
+
+.servicio img{
+    border-radius: 13px;
+    display: block;
+    max-width: 225px;
+}
+
+.servicio:nth-child(even){ /*los hijos que son pares*/
+    flex-direction: row-reverse;
+    /*aclaracion arranca en 0 la cuenta, por eso se da vuelta el primero y el tercero*/
+}
 /*fin servicios*/
+
+
+/*inicio galeria*/
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap; /*que tenga desbordamiento*/
+    justify-content: center;
+    /*el elemento padre necesita un display*/
+}
+
+.galeria img{
+    width: 18%; /*como tengo 100% lo divido entre 5 y daria 20% pero para que tenga separacion le pongo 18%*/
+    border: 1px solid #ddd;
+    padding: 0.3em; /*separacion entre el borde y la imagen*/
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 2%;
+}
+
+
+/*fin galeria*/
