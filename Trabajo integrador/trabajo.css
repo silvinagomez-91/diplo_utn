@@ -12,7 +12,6 @@ header{
     width: 100%;
     border: 3px solid blueviolet;
     border-radius: 5px; 
-    /* background-color: rgb(166, 166, 166);  */
     background-color: blueviolet;
     color: white;
    
@@ -27,9 +26,13 @@ header{
     width: 35%;
     padding: 20px;
     font-size: xx-large;
+    
+
 
 
 }
+
+/*comienza inicio*/
 
 .imagen{
     width: 500px;
@@ -49,3 +52,66 @@ nav ul li a{
 
 }
 
+nav ul li a.activo{
+    background-color: rgb(225, 197, 245);
+}
+
+.descripcion{
+    width: 20%;
+    margin-top: 30px;
+    display: flex;
+    gap: 24px;
+}
+
+.descripcion h2{
+    font-size: xx-large;
+    margin-left: 20px;
+}
+
+/*fin inicio*/
+
+
+/*comienza galeria*/
+
+.galeria{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.galeria img{
+    width: 15%;
+    height: auto;
+    border: solid blueviolet;
+    padding: 5px;
+    box-sizing: border-box;
+
+}
+
+h2{
+    font-size: 30px;
+    margin-left: 60px;
+    padding: 20px;
+}
+
+
+
+/*fin galeria*/
+
+
+
+/*inicio servicios*/
+
+.servicios h2{
+    font-family: "Story Script", sans-serif;
+    font-size: 80px;
+
+    
+
+}
+
+.servicios ul li{
+    font-size: 30px;
+}
+
+/*fin servicios*/
