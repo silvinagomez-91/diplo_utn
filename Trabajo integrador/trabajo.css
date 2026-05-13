@@ -37,10 +37,14 @@ header{
 
 
 /*comienza inicio*/
+.columnas{
+    width: 60%;
+    margin-left: 50px;
+}
 
-.imagen{
-    margin: 40px;
-    width: 400px;
+.columnas img{
+    margin: 30px;
+    width: 170px;
     height: auto;
     border: 2px solid blueviolet;
     padding: 5px;
@@ -62,57 +66,57 @@ nav ul li a.activo{
 }
 
 .descripcion{
-    width: 20%;
+    width: 70%;
     margin-top: 30px;
     display: flex;
     gap: 24px;
 }
 
 .descripcion h2{
+    display: flex;
+    justify-content: center;
     font-size: xx-large;
-    margin-left: 20px;
+   
 }
+
+
 
 /*fin inicio*/
 
 
 /*comienza galeria*/
 
-.galeria{
+.titulo{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(196, 144, 245);
+   
+}
+
+.contenedor{
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-}
-
-.fotos img{
-    width: 15%;
-    height: auto;
-    border: solid blueviolet;
-    padding: 5px;
-    box-sizing: border-box;
-    margin-left: 20px;
-
+margin: 50px;
 }
 
 
-h2{
-    font-size: 30px;
-    margin-left: 60px;
-    padding: 20px;
+.caja p{
+    width: 50%;
 }
 
-.columnas a{
-    text-decoration: none;
+.caja a{
     color: blueviolet;
-    font-size: 25px;
-    
 }
 
-.columnas img{
-    margin-left: 20px;
+.caja img{
     border: 2px solid blueviolet;
-    padding: 3px;
+    padding: 2px;
 }
+
+
+
+
 
 
 /*fin galeria*/
@@ -121,32 +125,59 @@ h2{
 
 /*inicio servicios*/
 
+
 .servicios h2{
     font-family: "Story Script", sans-serif;
     font-size: 60px;
-
+    color: blueviolet;
     
+  
+   
 
 }
 
 .servicios ul li{
-    font-size: 30px;
-    margin-left: 30px;
+    font-size: 25px;
     
+}
+
+.contacto{
+    margin-left: 10%;
 }
 
 
 .contacto h2{
     font-family: "Story Script", sans-serif;
      font-size: 60px;
+     color: blueviolet;
     
 
 }
 
-.plataformas h2{
-     font-family: "Story Script", sans-serif;
-     font-size: 60px;
+
+
+.contacto i{
+    font-size: 30px;
+}
+/*fin servicios*/
+
+/*inicio frekuency*/
+
+.frekuency h2{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(196, 144, 245);
 
 }
 
-/*fin servicios*/
+.frekuency p{
+    margin-left: 20px;
+}
+
+.frekuency img{
+    width: 300px;
+    border: 2px solid blueviolet;
+    padding: 3px;
+   margin: 20px;
+}
+/*fin frekuency*/
